@@ -14,7 +14,6 @@ class Login_reg:
         self.LR_Window.iconbitmap("Login.ico")
 
         self.Qry_Obj = Mainqry()
-
         global photo1
         global bg1
         photo1 = ImageTk.PhotoImage(Image.open("wingg.png"))
@@ -28,6 +27,9 @@ class Login_reg:
         ######################Frame##########################
         self.frame_login = Frame(self.LR_Window)
         self.frame_login.place(x=320, y=350, height=215, width=500)
+
+
+
 
         self.label = Label(self.frame_login, text="Username", font=("ariel", 15))
         self.label.place(x=50, y=30)

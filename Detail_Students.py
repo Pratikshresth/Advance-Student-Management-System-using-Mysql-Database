@@ -365,9 +365,7 @@ class Student_Details:
             messagebox.showerror("Error", "Please Enter Ten Digit Contact NO.")
             self.Profile_Window.destroy()
 
-        elif self.collegeid_entry.get().isdigit() != True:
-            messagebox.showerror("Error", "Invalid College ID, So Cannot Update.")
-            self.Profile_Window.destroy()
+
 
         else:
             try:
